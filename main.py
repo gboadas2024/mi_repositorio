@@ -17,7 +17,7 @@ def connect_to_postgres():
     try:
         # Crear la conexión a la base de datos
         connection = psycopg2.connect(
-            host='35.239.91.226',
+            host='35.184.103.35',
             port='5432',
             dbname='dvdrental',
             user='gabuser',
