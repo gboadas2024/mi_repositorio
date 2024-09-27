@@ -121,7 +121,7 @@ def connect_to_postgres_and_insert(df, table_name):
         print(f"Error al conectarse a la base de datos: {error}")
 
 
-###gab
+###esto es un cambio al codigo 
 def insert_postgres_table_actor(actors_names):
     try:
               # Datos de conexión a PostgreSQL
