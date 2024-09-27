@@ -125,7 +125,7 @@ def connect_to_postgres_and_insert(df, table_name):
 def insert_postgres_table_actor(actors_names):
     try:
               # Datos de conexión a PostgreSQL
-        db_host='35.222.51.81'
+        db_host='35.184.103.35'
         db_port='5432'
         db_name='dvdrental'
         db_user='gabuser'
